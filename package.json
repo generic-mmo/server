@@ -1,4 +1,5 @@
 {
+  "name": "x",
   "scripts": {
     "bootstrap": "buildtools-monorepo",
     "protobuf": "lerna exec -- npm run protobuf",
