@@ -13,7 +13,7 @@ server.addService(CartographerService, {
 })
 
 // @ts-ignore
-function retrieveChunk(call, callback) {
+function retrieveChunk(call: unknown, callback) {
     const response: RetrieveChunkResponse = { foobar: "Well done!"}
     callback(null, response)
 }
