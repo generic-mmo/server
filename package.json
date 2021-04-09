@@ -3,7 +3,8 @@
     "bootstrap": "buildtools-monorepo",
     "protobuf": "lerna exec -- npm run protobuf",
     "build": "lerna exec -- npm run build",
-    "clean": "lerna exec -- npm run clean"
+    "clean": "lerna exec -- npm run clean",
+    "publish": "buildtools-publish"
   },
   "devDependencies": {
     "@generic-mmo/buildtools": "latest"
