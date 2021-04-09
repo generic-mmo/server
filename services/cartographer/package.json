@@ -15,8 +15,8 @@
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
-    "**/*.proto",
-    "**/*.ts",
+    "schema/**/*.proto",
+    "schema/**/*.ts",
     "!node_modules"
   ],
   "publishConfig": {
