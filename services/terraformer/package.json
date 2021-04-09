@@ -1,6 +1,6 @@
 {
   "name": "@generic-mmo/terraformer-service",
-  "version": "0.0.1-next.8",
+  "version": "0.0.1-next.9",
   "main": "./main.js",
   "type": "commonjs",
   "types": "./main.d.ts",
@@ -26,6 +26,6 @@
   },
   "repository": "https://github.com/generic-mmo/server",
   "dependencies": {
-    "@generic-mmo/cartographer-service": "0.0.1-next.8"
+    "@generic-mmo/cartographer-service": "^0.0.1-next.9"
   }
 }
