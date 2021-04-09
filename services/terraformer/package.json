@@ -15,10 +15,14 @@
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
+    "schema/**/*.ts",
     "!node_modules"
   ],
   "publishConfig": {
     "access": "public"
   },
-  "repository": "https://github.com/generic-mmo/server"
+  "repository": "https://github.com/generic-mmo/server",
+  "dependencies": {
+    "@generic-mmo/cartographer-service": "latest"
+  }
 }

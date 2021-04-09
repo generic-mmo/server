@@ -15,6 +15,7 @@
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
+    "schema/**/*.ts",
     "!node_modules"
   ],
   "publishConfig": {

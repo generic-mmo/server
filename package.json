@@ -9,8 +9,5 @@
   },
   "devDependencies": {
     "@generic-mmo/buildtools": "latest"
-  },
-  "dependencies": {
-    "ts-proto": "1.79.2"
   }
 }
