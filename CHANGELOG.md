@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.1-next.6](https://github.com/generic-mmo/server/compare/v0.0.1-next.5...v0.0.1-next.6) (2021-04-09)
+
+
+### Bug Fixes
+
+* foobar ([bf8e735](https://github.com/generic-mmo/server/commit/bf8e735d67e0fb202f1056ee6487facb25594960))
+
+
+
+
+
 ## [0.0.1-next.5](https://github.com/generic-mmo/server/compare/v0.0.1-next.4...v0.0.1-next.5) (2021-04-09)
 
 
