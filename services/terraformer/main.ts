@@ -8,5 +8,3 @@ client.retrieveChunk({ id: 0 }, (error, response) => {
     console.log("A", response.foobar)
     console.log("B", error)
 })
-
-console.log("FOOBAR")
