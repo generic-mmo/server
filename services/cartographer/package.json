@@ -1,0 +1,24 @@
+{
+  "name": "@generic-mmo/cartographer-service",
+  "version": "0.0.0",
+  "main": "./main.js",
+  "type": "commonjs",
+  "types": "./main.d.ts",
+  "scripts": {
+    "start": "node ./main.js",
+    "protobuf": "buildtools-protobuf",
+    "build": "buildtools-build",
+    "clean": "buildtools-clean"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "!node_modules"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/generic-mmo/server"
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+service Cartographer {
+  rpc RetrieveChunk(RetrieveChunkRequest) returns (RetrieveChunkResponse) {}
+}
+
+
+message RetrieveChunkRequest {
+  int32 id = 1;
+}
+
+message RetrieveChunkResponse {
+  string foobar = 1;
+}

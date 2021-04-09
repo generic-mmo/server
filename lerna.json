@@ -1,0 +1,20 @@
+{
+  "version": "0.0.0",
+  "packages": [
+    "./gateway",
+    "./services/*"
+  ],
+  "command": {
+    "version": {
+      "allowBranch": [
+        "master",
+        "stable"
+      ],
+      "message": "chore(release): %s"
+    }
+  },
+  "ignoreChanges": [
+    "**/*.md",
+    "**/*.spec.*"
+  ]
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+
+
+service Terraformer {
+  rpc CreateChunk(CreateChunkRequest) returns (CreateChunkRequestResponse) {}
+}
+
+
+message CreateChunkRequest {}
+
+message CreateChunkRequestResponse {}
