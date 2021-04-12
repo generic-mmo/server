@@ -12,6 +12,8 @@ node_modules/
 ## Caching
 .cache/
 *.tsbuildinfo
+## Logs
+*-debug*
 ## Reports
 coverage/
 
