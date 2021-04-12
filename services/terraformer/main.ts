@@ -1,10 +1,10 @@
-import * as gRPC from "@grpc/grpc-js"
+import Cartographer from "@generic-mmo/cartographer-service";
 
-import { CartographerClient } from "../cartographer/schema/schema"
 
-const client = new CartographerClient("0.0.0.0:50051", gRPC.ChannelCredentials.createInsecure())
 
-client.retrieveChunk({ id: 0 }, (error, response) => {
-    console.log("A", response.foobar)
+const client = new Cartographer()
+
+client.retrieveChunk({ id: 0 }, (error: any, response: any) => {
+    console.log("A", response)
     console.log("B", error)
 })

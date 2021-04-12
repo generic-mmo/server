@@ -7,6 +7,10 @@
     "version": "buildtools-version",
     "publish": "buildtools-publish"
   },
+  "dependencies": {
+    "@generic-mmo/grpc": "latest",
+    "@grpc/grpc-js": "1.x"
+  },
   "devDependencies": {
     "@generic-mmo/buildtools": "latest"
   }

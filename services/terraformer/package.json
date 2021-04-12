@@ -1,11 +1,11 @@
 {
   "name": "@generic-mmo/terraformer-service",
   "version": "0.0.1-next.10",
-  "main": "./main.js",
   "type": "commonjs",
-  "types": "./main.d.ts",
+  "main": "./service.js",
+  "types": "./service.d.ts",
   "scripts": {
-    "start": "node ./main.js",
+    "start": "CARTOGRAPHER_API='0.0.0.0:50051' node ./main.js",
     "protobuf": "buildtools-protobuf",
     "build": "buildtools-build",
     "clean": "buildtools-clean"
@@ -26,6 +26,6 @@
   },
   "repository": "https://github.com/generic-mmo/server",
   "dependencies": {
-    "@generic-mmo/cartographer-service": "^0.0.1-next.10"
+    "@generic-mmo/cartographer-service": "latest"
   }
 }
