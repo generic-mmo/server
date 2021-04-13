@@ -43,6 +43,7 @@ jobs:
       - name: Publish to npm artifactory
         run: |
           docker --version
+          ls node_modules/.bin
           npm run publish --if-present
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
