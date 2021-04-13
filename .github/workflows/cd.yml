@@ -42,8 +42,6 @@ jobs:
           git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" HEAD:${{github.ref}} --follow-tags
       - name: Publish to npm artifactory
         run: |
-          docker --version
-          ls node_modules/.bin
           npm run publish --if-present
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
