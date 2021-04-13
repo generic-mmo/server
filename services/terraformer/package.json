@@ -1,6 +1,6 @@
 {
   "name": "@generic-mmo/terraformer-service",
-  "version": "0.0.1-next.12",
+  "version": "0.0.1-next.13",
   "type": "commonjs",
   "main": "./service.js",
   "types": "./service.d.ts",
