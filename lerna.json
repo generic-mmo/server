@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1-next.11",
+  "version": "0.0.1-next.12",
   "packages": [
     "./gateway",
     "./services/*"
