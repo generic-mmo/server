@@ -1,4 +1,6 @@
 {
+  "name": "server",
+  "private": true,
   "scripts": {
     "postinstall": "buildtools-monorepo && buildtools-link --force-local",
     "build": "lerna exec -- npm run build",
