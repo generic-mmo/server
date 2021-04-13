@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@generic-mmo/grpc": "latest",
-    "@grpc/grpc-js": "1.x"
+    "@grpc/grpc-js": "1.1.2"
   },
   "devDependencies": {
     "@generic-mmo/buildtools": "latest"
