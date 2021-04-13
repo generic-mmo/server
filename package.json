@@ -7,7 +7,7 @@
     "clean": "lerna exec -- npm run clean",
     "purge": "buildtools-purge",
     "version": "buildtools-version",
-    "publish": "buildtools-publish --no-verify-access  &&  lerna exec -- npm run dockerize -- -- --publish"
+    "publish": "buildtools-publish --no-verify-access  &&  lerna exec -- npm run dockerize -- --publish"
   },
   "dependencies": {
     "@generic-mmo/grpc": "latest",
