@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "bootstrap": "buildtools-monorepo",
-    "protobuf": "lerna exec -- npm run protobuf",
+    "postinstall": "buildtools-monorepo && buildtools-link --force-local",
     "build": "lerna exec -- npm run build",
     "clean": "lerna exec -- npm run clean",
+    "purge": "buildtools-purge",
     "version": "buildtools-version",
     "publish": "buildtools-publish"
   },

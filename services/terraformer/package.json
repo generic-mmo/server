@@ -6,8 +6,7 @@
   "types": "./service.d.ts",
   "scripts": {
     "start": "CARTOGRAPHER_API='0.0.0.0:50051' node ./main.js",
-    "protobuf": "buildtools-protobuf",
-    "build": "buildtools-build",
+    "build": "buildtools-protobuf && buildtools-build",
     "clean": "buildtools-clean"
   },
   "files": [

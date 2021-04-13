@@ -1,5 +1,6 @@
 {
     "extends": "@generic-mmo/buildtools/configuration/typescript",
+    "compileOnSave": true,
     "compilerOptions": {
         "noUnusedLocals": false,
         "noUnusedParameters": false

@@ -1,7 +1,9 @@
-import Microservice from "@generic-mmo/grpc";
+import Microservice, { UnaryCall } from "@generic-mmo/grpc";
 import {
     CartographerService,
-    CartographerClient, RetrieveChunkResponse
+    CartographerClient,
+    RetrieveChunkRequest,
+    RetrieveChunkResponse
 } from "./schema/schema"
 
 
@@ -13,8 +15,8 @@ import {
     service: CartographerService
 })
 export default class Cartographer {
-    public retrieveChunk = (call: unknown, callback: Function) => {
-        const response: RetrieveChunkResponse = { foobar: "Well done!"}
-        callback(null, response)
+    @UnaryCall()
+    public async retrieveChunk(request: RetrieveChunkRequest): Promise<RetrieveChunkResponse> {
+        return { foobar: "Well done!" + request.id}
     }
 }
