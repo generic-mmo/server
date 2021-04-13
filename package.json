@@ -2,12 +2,12 @@
   "name": "server",
   "private": true,
   "scripts": {
-    "postinstall": "buildtools-monorepo && buildtools-link --force-local",
+    "postinstall": "buildtools-monorepo  &&  buildtools-link --force-local",
     "build": "lerna exec -- npm run build",
     "clean": "lerna exec -- npm run clean",
     "purge": "buildtools-purge",
     "version": "buildtools-version",
-    "publish": "buildtools-publish && lerna exec -- buildtools-dockerize --publish"
+    "publish": "buildtools-publish --no-verify-access  &&  lerna exec -- buildtools-dockerize --publish"
   },
   "dependencies": {
     "@generic-mmo/grpc": "latest",
